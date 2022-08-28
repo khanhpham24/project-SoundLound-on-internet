@@ -1,0 +1,304 @@
+    body {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        background-color:#f2f2f2;
+        font: 12px/1.4 Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+        
+    }
+    /* Css giao diện đầu */
+    .to{
+    background-image: url(images/anh1.jpg);
+    width: 103%;  
+    height: 464px;
+    border-top: 7px solid #f50;
+    margin-top: 0;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0 120px 40px -40px rgb(5 5 5 / 50%);
+}
+/* Logo */
+.t1{
+   
+    position: absolute;
+    left: 205px;
+    top: 39px;
+    width: 56px;
+    height: 26px;
+} 
+a{ text-decoration: none;}
+ .tieude{   
+    font-size: 36px;
+    font-weight: 100;
+    margin: 18px 0 0;
+    line-height: 1.3;
+}
+span{
+    font-size: 30px;
+}
+.tren p{
+    max-width: 423px;
+    text-align: center;
+    font-size: 13px;
+}
+.v1 {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f50;
+    border-color: #f50;
+    border-radius: 4px;
+    position: relative;
+    right: -87px;
+}
+ .nut{
+    font-size: 18px;
+    min-width: 210px;
+    height: 46px; 
+    line-height: 46px;
+ }
+.v1 a{
+    color: #fff;
+}
+.nutphai_1{
+    background: transparent;
+    color: #fff;
+    border-color: #ccc;
+    left: 502px;
+    top: -109px;
+    position: relative;
+}
+.nutphai{
+    padding: 2px 15px;
+    height: 30px;
+    line-height: 24px;
+}
+ .nutphai_2{
+    left: 507px;
+    top: -110px;
+    position: relative;
+}
+ 
+.nutphai_3{
+    padding: 2px 15px;
+    height: 30px;
+    line-height: 24px;
+    margin: 0 0 0 6px;
+    background: transparent;
+    border-color: black ;
+    left: 499px;
+    top: -112px;
+    
+}
+/* Giao diện dưới 1 */
+.search {
+    padding: 43px;
+    border-radius: 2px;
+    position: relative;
+    right: -109px;
+    height: 35px;
+}
+      /* Tìm kiếm */
+input{
+    background: #f2f2f2;
+    border: none;
+    font-size: 17px;
+    line-height: 44px;
+    width: 636px;
+    padding: 0px 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.v2{position: relative;
+    top: -68px;
+    right: -755px;
+    font-size: 19px;
+}
+/* Thuộc tính nút  */
+   .v3{    
+    display: block;
+    max-width: 155px !important;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+    height: 45px;
+    margin-top: -38px;
+    font-size: 15px;
+    line-height: 47px;
+   }
+    .chu{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+    }
+     .mv{
+        width: 100%;
+        height: 10%;
+    }
+    .t2{margin-left: -51px;
+        display: block;}
+    .mv  .item{
+        width: 16.6%;
+        float: left;
+        padding-left: 18px;
+    }
+    .item{
+        box-sizing: border-box;
+        margin-top: var(--spacing-1x);
+    }
+       ul{
+        list-style: none;
+       }
+       .item .imgages_1 img {
+        width: 181px;
+    height: 179px;
+       }
+        
+       .item{
+        width: 140px;
+       }
+       li{
+        display: list-item;
+        text-align: -webkit-match-parent;
+       }
+       .item .nutplay img{
+    border-radius: 108%;
+    border-color: #f50;
+    background-color: #f50;
+    width: 46px;
+    height: 39px;
+    padding: 9px;
+    position: relative;
+    top: -123px;
+    right: -55px;
+    opacity: 0;
+    transition: 0.4s;
+ }
+       .item:hover .nutplay img{
+       opacity:1 ;
+       }
+        .item  .butnut1 label{
+         position: relative;
+         top: -93px;
+         right: -94px;
+         color:white;
+         padding: 5px;
+         opacity: 0;
+        }
+        .item:hover .butnut1 label{opacity: 1;}
+   .pi{
+    background-color: white !important;
+   } 
+    .t3{margin-top: -78px;}
+    .chutren a{
+     position: relative;
+     top: -88px;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     word-break: normal;
+     width: 100%;
+     display: block;
+        }
+     .chutren a{ color: #333;
+            font-size: 14px;
+           }
+     .chuduoi a{
+          color: #999;
+          position: relative;
+          top:-100px;
+        }
+        .nuti a{
+    background-color: #f50;
+    border-color: #f50;
+    color: #fff;
+    font-size: 15px;
+    height: 46px;
+    padding: 13px 23px;
+    position: relative;
+    right: -508px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 100;
+    box-sizing: border-box;
+    top: -34px;
+}
+.gancuoi1{
+    display: flex;
+    padding-top: 114px;
+    margin-left: 44px;
+}
+.op p{
+    display: block;
+}
+.op {padding-left: 96px;
+    font-size: 23px;
+    color: #333;
+}
+.op h2::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-image: linear-gradient(90deg,#7d01a1,#f30 50%,#f50);
+    margin-top: 15px;
+}
+ .b1 {width: 100%;}
+
+.or {top: -324px;
+    position: relative;
+    color: #fff;
+    margin-left: 67px;
+    font-size: 22px;
+}
+ .v7{width: 159px;
+    height: 44px;
+    border-color: #fff;
+    border-radius: 2px;
+    background-color: black;
+    font-size: 17px;
+}  
+.v7 a{text-decoration: none;
+      color: #fff;}   
+.u1{text-align: center;
+    margin-top: -201px;
+    font-size: 24px;}
+.v8{max-width: 180px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 19px;
+    position: relative;
+    right: -501px;}
+.v9{margin-top: -17px;}
+.v10{font-size: 11px;}
+.u2{display:flex ;
+    position: relative;
+    right: -463px;
+    top: 20px;}
+.v11{margin-left: 20px;
+    width: 88px;
+    height: 41px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    box-shadow: none;}
+.v11 a{text-decoration: none;
+    font-size: 16px;
+    color: #333;
+}
+.ha {display: flex;
+    padding-top: 135px;
+    position: relative;
+    right: 41px;
+}
+.ha li {margin-right: 4px;}
+.ha li a{color: #ccc;font-size: 14px;}
+.ha li a:hover{color: #333;}
+
+
+

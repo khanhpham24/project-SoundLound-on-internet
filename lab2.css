@@ -1,0 +1,243 @@
+ /* Giao diện 1 */
+ /* Logo */  
+
+ .logo{
+    background-image: url(images/p1.svg);
+    width: 50px;
+    height: 37px;
+    background-size: 50px 54px;
+    margin-right: 101px;
+    margin-bottom: 13px;
+}
+
+.dinhcao{
+    position: fixed !important;
+    right: 123px;
+    top: 0;
+    z-index: 1;}
+.dinhcao2{
+    padding-top: 70px;
+}
+.dinhcao3{
+    background-color: #222;
+    border-color: #080808;
+    width: 101%;
+    margin-right: -127px;
+}
+/* tìm kiếm */
+.search input {
+width: 416px !important;
+height: 30px;
+color: #666;
+background-color: #e5e5e5;
+}
+/* icon search */
+.buttton_search{
+    background:url(images/q1.svg)  ;
+    width: 15px;
+    height: 15px;
+    border: 0;
+    right: 30px;
+    top: 4px;
+    position: relative;
+}
+/* buttton */
+.button{
+    margin-top: 9px;
+    margin-right: 15px;
+    border-radius: 2px;
+} 
+.buttton_right_one{
+    background-color: initial;
+    border-color: #666;
+}
+.button_right_true{
+    background-color: #f50;
+    border-color: #f50;
+}
+.v1{color:#fff;}
+.v1:hover{
+    color: #fff;
+    text-decoration: none;
+}
+ /* 3 chấm */
+.three{
+    background: url(images/3cham.svg);
+    width: 22px;
+    border: 0;
+    margin-left: 0;
+    padding: 0;
+    opacity: 0.75;
+    height: 6px;
+    background-size: 22px;
+    top: 18px;
+    position: absolute;
+}
+/* 11 */
+.q1{ display: flex;}
+.q1 li{
+    list-style: none;
+    margin-right: 20px;
+}
+.q1 a{
+    color: #666;
+    text-decoration: none;
+}
+.q1 a:hover{
+    text-decoration: none;
+}
+/* l2 */
+.jh{
+   position: absolute;
+   top: 71px;
+    right: 217px;
+}
+.jh::before{
+    content: url(images/w3.svg);
+    position: absolute;
+    left: -19px;
+}
+/* l3 */
+.bottom_true{
+background-image: url(images/w1.jpg);
+height: 462px;
+width: 109%;
+margin-left: -17px;
+}
+.kh_1{
+    position: relative;
+    top: 100px;
+    right: -67px;
+}
+.kh_2{font-size: 34px;
+ color: #fff;}
+.kh_3{
+    font-size: 20px;
+    color: #e5e5e5;
+}
+.kh_4{
+    background-color: #f50;
+    width: 255px;
+    height: 49px;
+    display: block;
+    line-height: 50px;
+    padding-left: 36px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 19px;
+}
+.kh_4:hover{
+    color: #e5e5e5;
+    text-decoration: none;
+}
+/* l4 */
+.kj{margin-left: 38px;}
+.lk_one{font-size: 33px;
+    color: #666;
+    margin-left: 30px;
+    padding-top: 50px;}
+.lk_one::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: #f50;
+    margin-top: 15px;
+}
+.lk_two{
+    font-size: 20px;
+    margin-left: 30px;
+    color: #666;
+}
+.kj_two {font-size: 15px; color: #666;
+  display: block; text-align: center;
+  padding-top: 14px;}
+.kj_four{width: 84%;position: relative;
+right: -33px;}
+.kj_five{font-size: 14px !important;margin-left: 31px;}
+.lo{background-color:#e5e5e5;}
+.lo_1{margin-top: 53px;}
+.lo_2{margin-top: 129px;}
+.lo_3{
+    width: 115px;
+    height: 44px;
+    background-color: #f50;
+    line-height: 42px;
+    padding-left: 24px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+.lo_3 a{color: #fff; text-decoration: none;}
+  /* l6 */
+.mk_one{margin-left: 17px;}
+.fanaly{margin-left: 210px;}
+.mk_two{
+    width: 261px;
+    height: 48px;
+    border-color: #f50;
+    position: relative;
+    top: -46px;
+    right: -322px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.mk_two:hover{
+    background-color: #f50;
+}
+.mk_three{position: relative;
+right: -168px;height: 47px;
+}
+.mk_two a{color: #f50;font-size: 15px;}
+.mk_two a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.ha {display: flex;
+    padding-top: 135px;
+    position: relative;
+    right: 41px;
+}
+.ha li {margin-right: 4px;list-style: none;}
+.ha li a{color: rgb(97, 91, 91);font-size: 14px;}
+.ha li a:hover{color: #333;}
+
+
+
+   /* Code CSS lab4 */
+
+.lo_4_one{
+    width: 148px;
+    height: 42px;
+}
+.bottom{
+     position: fixed;
+    right: 395px;
+    
+}
+.bottom_one a{
+    color: #666;
+    
+}
+.bottom_one li{
+    list-style: none;
+}
+
+/* Code lab 6 */
+.pop_one{
+    display: flex;
+}
+.pop_one li{
+    margin-right: 22px;
+    font-size: 16px;
+    list-style: none;
+}
+.right_now{
+    float: right;
+    position: relative;
+    top: 20px;
+}
+ 
+
